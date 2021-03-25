@@ -1,0 +1,25 @@
+{
+    "name": "wfc",
+    "displayName": "WFC",
+    "description": "ws fast develop code",
+    "version": "0.0.1",
+    "publisher": "wushang",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "\"javascript\",\"typescript\",\"vue\",\"vue-html\"",
+                "path": "./snippets/snippets_js.code-snippets"
+            },
+            {
+                "language": "\"vue\",\"vue-html\"",
+                "path": "./snippets/snippets_vue.code-snippets"
+            }
+        ]
+    }
+}

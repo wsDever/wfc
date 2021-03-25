@@ -1,0 +1,17 @@
+{
+    "logout common string": {
+        "prefix": "cns",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Log output to console"
+    },
+    "logout object string": {
+        "prefix": "cnso, cnsobj",
+		"body": [
+			"console.log(JSON.stringify($1));"
+		],
+		"description": "Log output a object string"
+    },
+    
+}
