@@ -11,13 +11,13 @@
 * Press `F5` to open a new window with your extension loaded.
 * Create a new file with a file name suffix matching your language.
 * Verify that your snippets are proposed on intellisense.
+## Publish
+* Add publisher[https://marketplace.visualstudio.com/manage/publishers/wushang]
+* Add access Token[https://dev.azure.com/809663381/_usersSettings/tokens]
+* More info[https://code.visualstudio.com/api/working-with-extensions/publishing-extension]
+* Doc[https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/working-with-extensions/publish-extension]
+* Questions[https://www.jianshu.com/p/c75d0897e878][https://blog.werner.wiki/how-to-open-recaptcha/]
 
-## Make changes
+## Other
 
-* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
-
-## Install your extension
-
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+w3i5jf3wxfdvrmcrlg(wushang)dbubdkmr235ibtr3n6g6c6ikctacbyydwq

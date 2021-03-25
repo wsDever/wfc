@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "wfc" extension will be documented in this file.
+### Version 0.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+ - Add ffvue(风风模板)、wsvue(WS模板)、cmvue(组件模板)
+ - Add :cls/:cs(样式绑定)
+ - Add cns(普通打印)、cnso(对象打印)

@@ -2,7 +2,7 @@
     "name": "wfc",
     "displayName": "WFC",
     "description": "ws fast develop code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "wushang",
     "engines": {
         "vscode": "^1.54.0"
