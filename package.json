@@ -2,8 +2,13 @@
     "name": "wfc",
     "displayName": "WFC",
     "description": "ws fast develop code",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "publisher": "wushang",
+    "icon": "logo.png",
+    "repository": {
+        "type": "git",
+		"url": "https://github.com/wsDever/wfc.git"
+    },
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -13,11 +18,19 @@
     "contributes": {
         "snippets": [
             {
-                "language": "\"javascript\",\"typescript\",\"vue\",\"vue-html\"",
+                "language": "javascript",
                 "path": "./snippets/snippets_js.code-snippets"
             },
             {
-                "language": "\"vue\",\"vue-html\"",
+                "language": "typescript",
+                "path": "./snippets/snippets_js.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippets_vue.code-snippets"
+            },
+            {
+                "language": "vue-html",
                 "path": "./snippets/snippets_vue.code-snippets"
             }
         ]

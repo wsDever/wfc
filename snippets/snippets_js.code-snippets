@@ -1,17 +1,45 @@
 {
-    "logout common string": {
+    "logout a common string": {
         "prefix": "cns",
 		"body": [
 			"console.log($1);"
 		],
 		"description": "Log output to console"
     },
-    "logout object string": {
+    "logout a object string": {
         "prefix": "cnso, cnsobj",
 		"body": [
 			"console.log(JSON.stringify($1));"
 		],
 		"description": "Log output a object string"
+    },
+	"logout a router file for ff": {
+        "prefix": "ffrouterfile",
+		"body": [
+			"import { AsyncCompoment } from \"utils/hoc\"",
+			"    ",
+			"const Page = AsyncCompoment(\"FinancingFixed/src/page.vue\");",
+			"    ",
+			"export default [",
+			"  {",
+			"    path: \"/page\",",
+			"    meta: { level: 0 },",
+			"    component: Page",
+			"  },",
+			"];"
+		],
+		"description": "logout a router file for ff"
+    },
+	"logout a router object for ff": {
+        "prefix": "ffrobj",
+		"body": [
+			"{",
+			"    path: \"/page\",",
+			"    meta: { level: 0, title: '' },",
+			"    component: Page",
+			"},"
+		],
+		"description": "logout a router object for ff"
     },
     
 }

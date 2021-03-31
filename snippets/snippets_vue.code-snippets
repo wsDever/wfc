@@ -1,5 +1,5 @@
 {
-    "ws's vue shortcut without extends class" : {
+    "logout a vue-template file for ff" : {
         "prefix": "ffvue",
         "body": [
             "<template>",
@@ -41,7 +41,7 @@
             "</style>"
     
         ],
-        "description": "Log output a page with vue-template"
+        "description": "logout a vue-template file for ff"
     },
     "ws's vue shortcut with extends class" : {
         "prefix": "wsvue",
