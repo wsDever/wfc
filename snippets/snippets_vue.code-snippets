@@ -78,7 +78,7 @@
         "description": "Log output a page with vue-template"
     },
     "ws's vue shortcut for components" : {
-        "prefix": "cmvue",
+        "prefix": "cmpvue",
         "body": [
             "<template>",
             "  <div>",
