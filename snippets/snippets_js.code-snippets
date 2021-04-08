@@ -41,5 +41,32 @@
 		],
 		"description": "logout a router object for ff"
     },
-    
+    "import a file": {
+        "prefix": "wsim, wsi",
+		"body": [
+			"import $1 from './$2';"
+		],
+		"description": "import a file"
+    },
+	"import a function": {
+        "prefix": "wsimf",
+		"body": [
+			"import { $1 } from './$2';"
+		],
+		"description": "import a function"
+    },
+	"export a module": {
+        "prefix": "wsexd",
+		"body": [
+			"export default $1"
+		],
+		"description": "export a module"
+    },
+	"export a module for nodejs": {
+        "prefix": "wsexm",
+		"body": [
+			"module.exports = $1"
+		],
+		"description": "export a module for nodejs"
+    }
 }
